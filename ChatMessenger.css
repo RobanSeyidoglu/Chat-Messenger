@@ -7,11 +7,13 @@ body {
   background-image: url(https://wallpaper.dog/large/966025.jpg);
 }
 .main-container {
-  width: 825px;
+  width: 830px;
   height: 625px;
   background-color: white;
   margin: 100px auto;
   outline: solid 1px #eee;
+  display: flex;
+  justify-content: space-between;
 }
 .main-container .left {
   width: 315px;
@@ -134,4 +136,136 @@ input {
 .nothing {
   width: 315px;
   height: 72px;
+}
+.right {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+}
+.right .abo {
+  width: 515px;
+  height: 50px;
+  background-color: #eee;
+  margin: 0;
+  display: flex;
+  gap: 4px;
+  padding: 15px;
+  color: #bab5be;
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-bottom: 165px;
+}
+.right .abo span {
+  color: black;
+}
+.monday {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  color: #9b999c;
+  font-size: 0.9rem;
+  position: relative;
+}
+.monday::before {
+  content: "";
+  width: 135px;
+  height: 1px;
+  background-color: #ddd;
+  position: absolute;
+  top: 40%;
+  right: 67%;
+}
+.monday::after {
+  content: "";
+  width: 135px;
+  height: 1px;
+  background-color: #ddd;
+  position: absolute;
+  top: 40%;
+  left: 67%;
+}
+.last-container {
+  margin-left: 35px;
+  width: 87%;
+}
+.so-you p {
+  background-color: #00b0ff;
+  font-size: 0.88rem;
+  padding: 12px;
+  color: white;
+  width: fit-content;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  position: relative;
+}
+.so-you p::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-right: 8px solid #00b0ff;
+  position: absolute;
+  top: 45%;
+  right: 100%;
+}
+.drak-why {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.drak-why p {
+  background-color: #eee;
+  font-size: 0.88rem;
+  padding: 12px;
+  color: black;
+  width: fit-content;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  position: relative;
+  margin-bottom: 0px;
+}
+.drak-why p::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-left: 8px solid #eee;
+  position: absolute;
+  top: 45%;
+  left: 100%;
+}
+.how {
+  background-color: #00b0ff;
+  font-size: 0.88rem;
+  padding: 12px;
+  color: white;
+  width: fit-content;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  position: relative;
+}
+.how::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-right: 8px solid #00b0ff;
+  position: absolute;
+  top: 45%;
+  right: 100%;
 }
